@@ -5,32 +5,48 @@ body {
 
 }
 
+.img-mini {
+  width: 10px;
+  height: 10px;
+}
+
 img {
   width: 20px;
   height: 20px;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   display: flex;
+  padding: 5px;
   justify-content: right;
   background: lightblue;
 }
 
 .header2 {
   display: flex;
-  background: blue;
+  padding-top: 5px;
+  background: lightgrey;
   justify-content: space-between;
 }
 
 .left-icons{
   display: flex;
-  background-color: green;
+  width: 50%;
+  background-color: lightgrey;
+  justify-content: space-around;
 
   
 }
 
 .right-icons {
   display: flex;
-  background: yellow;
+  width: 30%;
+  background: lightgrey;
+  justify-content: space-around;
   
 }
