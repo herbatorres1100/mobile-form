@@ -13,31 +13,35 @@ body {
 img {
   width: 20px;
   height: 20px;
+  color:  white;
+  margin-top: 10px;
+
 }
 
 p {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 header {
   display: flex;
   padding: 5px;
   justify-content: right;
-  background: lightblue;
+  background: #4b01d1;
 }
 
 .header2 {
   display: flex;
   padding-top: 5px;
-  background: lightgrey;
+  background: #6203ee;
   justify-content: space-between;
 }
 
 .left-icons{
   display: flex;
   width: 50%;
-  background-color: lightgrey;
+  background-color: #6203ee;
   justify-content: space-around;
 
   
@@ -46,7 +50,33 @@ header {
 .right-icons {
   display: flex;
   width: 30%;
-  background: lightgrey;
+  background: #6203ee;
   justify-content: space-around;
   
+}
+
+form {
+  display: flex;
+  text-align: center;
+  padding-top: 20px;
+  justify-content: space-evenly;
+}
+
+input {
+  width: 75%;
+  height: 40px;
+}
+
+.input1 {
+  width: 50%;
+}
+
+.adress-input {
+  background-color: #e8e8e8;
+  border-style: none none solid none;
+}
+
+.name-input {
+  background-color: #e8e8e8;
+  border-style: none none solid none;
 }
