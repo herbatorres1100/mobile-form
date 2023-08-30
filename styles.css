@@ -41,13 +41,13 @@ header {
   justify-content: space-between;
 }
 
+
+
 .left-icons{
   display: flex;
   width: 50%;
   background-color: #6203ee;
   justify-content: space-around;
-
-
   
 }
 
@@ -72,6 +72,16 @@ input {
   padding-left: 10px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.address-img {
+  display: hidden;
+}
+
 .input1 {
   width: 50%;
 }
@@ -88,10 +98,14 @@ input {
 
 .state-input {
   width: 32%;
+  background-color: #e8e8e8;
+  border-style: none none solid none;
 }
 
 .zip-input {
   width: 32%;
+  background-color: #e8e8e8;
+  border-style: none none solid none;
 }
 
 .blank-image {
