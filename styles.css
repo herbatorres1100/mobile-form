@@ -19,9 +19,11 @@ img {
 }
 
 p {
-  margin: 0;
-  padding: 0;
+  margin-top: 10px;
+  padding: 0px;
   color: white;
+  text-align: bottom;
+  font-weight: bold;
 }
 
 header {
@@ -34,6 +36,7 @@ header {
 .header2 {
   display: flex;
   padding-top: 5px;
+  padding-bottom: 5px;
   background: #6203ee;
   justify-content: space-between;
 }
@@ -43,6 +46,7 @@ header {
   width: 50%;
   background-color: #6203ee;
   justify-content: space-around;
+
 
   
 }
@@ -65,6 +69,7 @@ form {
 input {
   width: 75%;
   height: 40px;
+  padding-left: 10px;
 }
 
 .input1 {
@@ -79,4 +84,26 @@ input {
 .name-input {
   background-color: #e8e8e8;
   border-style: none none solid none;
+}
+
+.state-input {
+  width: 32%;
+}
+
+.zip-input {
+  width: 32%;
+}
+
+.blank-image {
+  visibility: hidden;
+}
+
+.birthday {
+  background-color: #e8e8e8;
+  border-style: none none solid none;
+}
+
+.calendar-img {
+  position: absolute;
+  margin-left: 255px;
 }
